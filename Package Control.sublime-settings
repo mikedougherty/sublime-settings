@@ -1,0 +1,16 @@
+{
+	"auto_upgrade_last_run": 1331107688,
+	"installed_packages":
+	[
+		"Git",
+		"JSHint",
+		"Package Control",
+		"Pretty JSON",
+		"PythonTidy",
+		"SideBarGit",
+		"Sublime-JSHint",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"SublimeREPL"
+	]
+}
