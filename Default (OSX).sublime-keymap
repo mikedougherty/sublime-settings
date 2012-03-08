@@ -1,0 +1,7 @@
+[
+	{ "keys": ["super+f"], "command": "show_panel", "args": {"panel": "replace"} },
+	{ "keys": ["super+h"], "command": "show_panel", "args": {"panel": "find_in_files"} },
+
+	{ "keys": ["ctrl+tab"], "command": "next_view" },
+	{ "keys": ["ctrl+shift+tab"], "command": "prev_view" }
+]

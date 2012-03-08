@@ -1,0 +1,14 @@
+{
+	"auto_upgrade_last_run": 1331164520,
+	"installed_packages":
+	[
+		"BeautifyRuby",
+		"Git",
+		"Package Control",
+		"Rails Related Files",
+		"SideBarGit",
+		"Simple Rails Navigator",
+		"SublimeCodeIntel",
+		"SublimeLinter"
+	]
+}
