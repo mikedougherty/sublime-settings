@@ -1,3 +1,84 @@
 {
-	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme"
+    "detect_slow_plugins": false,
+    // Set to 0 to disable smooth scrolling. Set to a value between 0 and 1 to
+    // scroll slower, or set to larger than 1 to scroll faster
+    "scroll_speed": 2.0,
+    "color_scheme": "Packages/Color Scheme - Default/Solarized (Dark).tmTheme",
+    "font_face": "Menlo",
+    "font_size": 12,
+    "margin": 2,
+    "fade_fold_buttons": false,
+    "rulers": [80, 120],
+    "spell_check": false,
+    "translate_tabs_to_spaces": true,
+    "wrap_width": 120,
+    "highlight_line": true,
+    "match_brackets_angle": true,
+    "indent_guide_options": ["draw_active"],
+    "trim_trailing_white_space_on_save": true,
+    "ensure_newline_at_eof_on_save": true,
+    "fallback_encoding": "UTF-8",
+    // When enabled, pressing tab will insert the best matching completion.
+    // When disabled, tab will only trigger snippets or insert a tab.
+    // Shift+tab can be used to insert an explicit tab when tab_completion is
+    // enabled.
+    //"tab_completion": true,
+
+    // By default, auto complete will commit the current completion on enter.
+    // This setting can be used to make it complete on tab instead.
+    // Completing on tab is generally a superior option, as it removes
+    // ambiguity between committing the completion and inserting a newline.
+    "auto_complete_commit_on_tab": false,
+
+    // Controls if auto complete is shown when snippet fields are active.
+    // Only relevant if auto_complete_commit_on_tab is true.
+    //"auto_complete_with_fields": false,
+
+    // By default, shift+tab will only unindent if the selection spans
+    // multiple lines. When pressing shift+tab at other times, it'll insert a
+    // tab character - this allows tabs to be inserted when tab_completion is
+    // enabled. Set this to true to make shift+tab always unindent, instead of
+    // inserting tabs.
+    "shift_tab_unindent": true,
+
+    // Valid values are "system", "enabled" and "disabled"
+    "overlay_scroll_bars": "enabled",
+
+
+    // lint settings
+    // A list of pep8 error numbers to ignore. By default "line too long" errors are ignored.
+    // The list of error codes is in this file: https://github.com/jcrocholl/pep8/blob/master/pep8.py.
+    // Search for "Ennn:", where nnn is a 3-digit number.
+    "pep8_ignore":
+    [
+        "E501"
+    ],
+
+    /*
+        If you use SublimeLinter for pyflakes checks, you can ignore some of the "undefined name xxx"
+        errors (comes in handy if you work with post-processors, globals/builtins available only at runtime, etc.).
+        You can control what names will be ignored with the user setting "pyflakes_ignore".
+
+        Example:
+
+        "pyflakes_ignore":
+            [
+                "some_custom_builtin_o_mine",
+                "A_GLOBAL_CONSTANT"
+            ],
+    */
+    "pyflakes_ignore":
+    [
+        "_"
+    ],
+
+    /*
+        Ordinarily pyflakes will issue a warning when 'from foo import *' is used,
+        but it is ignored since the warning is not that helpful. If you want to see this warning,
+        set this option to false.
+    */
+    "pyflakes_ignore_import_*": true,
+
+    // Objective-J: if true, non-ascii characters are flagged as an error.
+    "sublimelinter_objj_check_ascii": false
 }

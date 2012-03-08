@@ -8,7 +8,12 @@
 		"Rails Related Files",
 		"SideBarGit",
 		"Simple Rails Navigator",
+		"JSHint",
+		"Pretty JSON",
+		"PythonTidy",
+		"Sublime-JSHint",
 		"SublimeCodeIntel",
-		"SublimeLinter"
+		"SublimeLinter",
+		"SublimeREPL"
 	]
 }
